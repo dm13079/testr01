@@ -1,7 +1,9 @@
 #include <stdio.h>
 
 int main(int argc, char** argv) {
-	printf("Hello World!\n");
-	printf("Hello!\n");
+	int a, b;
+	a = 3;
+	b = 1;
+	printf("%d\n", a+b );
 	return 0;
 }
